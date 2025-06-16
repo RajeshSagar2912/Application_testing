@@ -1,7 +1,7 @@
 1)leaked mapbox api key testing: https://blogs.jsmon.sh/mapbox-tokens/
 
 2)testing leaked sentry auth token: https://x.com/GodSpeed000123/status/1862924113347829801
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 3)Algolia key exploitation
 
 Algolia AppId+API-KEY PoC to show permissions:
@@ -15,3 +15,6 @@ curl -X POST \
   -H "X-Algolia-Application-Id: 5WUMEZP4XY" \
   --data '{"query": "put_your_search_term"}' \
   https://5WUMEZP4XY-dsn.algolia.net/1/indexes/put_index_name/query
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4) content full cms token testing: https://x.com/walidhossain_/status/1915733432321319173
