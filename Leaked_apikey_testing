@@ -20,3 +20,8 @@ curl -X POST \
 4) content full cms token testing: https://x.com/walidhossain_/status/1915733432321319173
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 5) testing netlify token : curl -X GET https://api.netlify.com/api/v1/accounts \ -H "Authorization: Bearer <TOKEN>"
+
+6) testing google api key against gemini usage: https://x.com/KHIZER_JAVED47/status/1973380617015276010
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
