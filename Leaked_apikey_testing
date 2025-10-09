@@ -15,6 +15,8 @@ curl -X POST \
   -H "X-Algolia-Application-Id: 5WUMEZP4XY" \
   --data '{"query": "put_your_search_term"}' \
   https://5WUMEZP4XY-dsn.algolia.net/1/indexes/put_index_name/query
+
+--> This is good, a simple python script, can do the enough work: https://x.com/Suryesh_92/status/1967162211589386368
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 4) content full cms token testing: https://x.com/walidhossain_/status/1915733432321319173
