@@ -15,3 +15,5 @@ These are some awesome researches that I liked:
 7) good read on null bytes: https://medium.com/@0xold/null-byte-on-steroids-23f8104a25ec
 
 8) nice article on business logic bugs: https://medium.com/@Aacle/yond-the-owasp-top-10-a-strategic-guide-to-uncovering-high-impact-business-logic-flaws-b221729fb655
+
+9) good automation on dependency confusion: https://sl4x0.medium.com/turning-dependency-confusion-research-into-a-profitable-stack-d2f39fe216bf
