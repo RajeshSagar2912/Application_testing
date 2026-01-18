@@ -17,3 +17,5 @@ These are some awesome researches that I liked:
 8) nice article on business logic bugs: https://medium.com/@Aacle/yond-the-owasp-top-10-a-strategic-guide-to-uncovering-high-impact-business-logic-flaws-b221729fb655
 
 9) good automation on dependency confusion: https://sl4x0.medium.com/turning-dependency-confusion-research-into-a-profitable-stack-d2f39fe216bf
+
+10) bypassing wafs : https://www.blackhillsinfosec.com/bypassing-wafs-using-oversized-requests/
