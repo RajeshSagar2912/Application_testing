@@ -1,3 +1,7 @@
+As wordpress is a cms, we just look for misconfigurations, not bugs. so I mostly use nuclei / some wordpress scanner, and test for known misconfigurations thats it
+
+./nuclei -u https://test.com/ -tags wordpress
+
 1)xmlrpc.php - https://x.com/0x0SojalSec/status/1844795166181249509
 
 the complete exploitation of xml-rpc: https://infosecwriteups.com/how-hackers-abuse-xml-rpc-to-launch-bruteforce-and-ddos-attacks-40be5b310960
