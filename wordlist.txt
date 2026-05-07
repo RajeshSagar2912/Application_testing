@@ -1,3 +1,4 @@
+llms.txt
 templates/processed/syslog-tcp-forward.conf
 templates/processed/config.ini
 airflow.cfg
