@@ -1,3 +1,4 @@
+faketoken
 rest/v1/;/
 rest/v2/;/
 rest/v1/v2/;/
