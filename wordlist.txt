@@ -1,3 +1,5 @@
+v1/alias/boots/VOTelCollector
+v/boots/VOTelCollector
 faketoken
 rest/v1/;/
 rest/v2/;/
