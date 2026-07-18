@@ -1,3 +1,4 @@
+.well-known/oauth-protected-resource
 v1/alias/boots/VOTelCollector
 v/boots/VOTelCollector
 faketoken
@@ -10,7 +11,7 @@ templates/processed/syslog-tcp-forward.conf
 templates/processed/config.ini
 airflow.cfg
 webserver_config.py 
-?callback=%23%2F<script>alert(1234)<%2Fscript>
+?callback="><script>alert(1234)</script>
 js/config.js
 js/credentials.js
 js/secrets.js
